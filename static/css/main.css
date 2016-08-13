@@ -1,3 +1,37 @@
-body div div div {
+div {
+  display: block;
+}
+
+#name {
+  margin-top: 5%;
+  font-size: 4.5em;
   font-family: Inconsolata;
+}
+
+#main-content {
+  font-family: Inconsolata;
+  font-size: 1.25em;
+  max-width: 800px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 10px;
+}
+
+#social-buttons {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icons {
+  margin-right: 2%;
+  margin-left: 2%;
+  color: black;
+}
+
+.icons:hover {
+  color: pink;
 }
