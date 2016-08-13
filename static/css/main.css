@@ -34,7 +34,7 @@ div {
 }
 
 #name {
-  margin-top: 5%;
+  padding-top: 5%;
   font-size: 4.5em;
   font-family: Inconsolata;
   color: white;
@@ -49,6 +49,7 @@ div {
   margin-right: auto;
   padding-right: 10px;
   padding-left: 10px;
+  padding-bottom: 5%;
   border: 10px;
   color: white;
 }
