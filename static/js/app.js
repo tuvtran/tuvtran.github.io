@@ -1,3 +1,11 @@
 $(document).ready(function() {
-  $("#social-buttons").addClass("animated fadeInUp");
+  $(".icons").hover(function() {
+    $(this).addClass("animated rubberBand");
+  }, function() {
+    $(this).removeClass("animated rubberBand");
+  });
+
+  $(".icons").click(function() {
+    $(this).addClass("animated fadeOutDown");
+  });
 });
