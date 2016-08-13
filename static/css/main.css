@@ -1,3 +1,34 @@
+body {
+  background: linear-gradient(271deg, #0d0c0d, #20499d, #0e6725, #5d0f65);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 45s ease infinite;
+  -moz-animation: AnimationName 45s ease infinite;
+  -o-animation: AnimationName 45s ease infinite;
+  animation: AnimationName 45s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName { 
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+}
+
 div {
   display: block;
 }
@@ -6,6 +37,7 @@ div {
   margin-top: 5%;
   font-size: 4.5em;
   font-family: Inconsolata;
+  color: white;
 }
 
 #main-content {
@@ -18,6 +50,7 @@ div {
   padding-right: 10px;
   padding-left: 10px;
   border: 10px;
+  color: white;
 }
 
 #social-buttons {
@@ -30,7 +63,7 @@ div {
 .icons {
   margin-right: 2%;
   margin-left: 2%;
-  color: black;
+  color: white;
 }
 
 .icons:hover {
