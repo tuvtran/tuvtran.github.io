@@ -35,7 +35,7 @@ div {
 
 #main-header {
   margin-top: 60px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 
 #name {
@@ -88,7 +88,7 @@ div {
 }
 
 #social-buttons {
-  width: 56%;
+  width: 75%;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
