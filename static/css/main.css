@@ -21,12 +21,12 @@
 
 body {
   background: linear-gradient(47deg, #13bb90, #d50404, #672ff1, #368700, #3700bf, #bd0000);
-background-size: 1200% 1200%;
+  background-size: 1200% 1200%;
 
--webkit-animation: AnimationName 35s ease infinite;
--moz-animation: AnimationName 35s ease infinite;
--o-animation: AnimationName 35s ease infinite;
-animation: AnimationName 35s ease infinite;
+  -webkit-animation: AnimationName 35s ease infinite;
+  -moz-animation: AnimationName 35s ease infinite;
+  -o-animation: AnimationName 35s ease infinite;
+  animation: AnimationName 35s ease infinite;
 }
 
 div {
@@ -60,7 +60,7 @@ div {
 #main-content {
   font-family: Anonymous Pro;
   font-size: 1.25em;
-  text-shadow: 1.5px 1.5px 1.5px #000000;
+  text-shadow: 1.25px 1.25px 1.25px #000000;
   max-width: 800px;
   margin-top: 30px;
   margin-left: auto;
@@ -72,6 +72,19 @@ div {
   padding-top: 10px;
   border: 10px;
   color: white;
+}
+
+.links {
+  color: #4ee9ff;
+}
+
+.links:hover {
+  color: #8ad00f;
+}
+
+#resume {
+  font-size: 1.25em;
+  text-align: center;
 }
 
 #social-buttons {
