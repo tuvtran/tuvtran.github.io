@@ -6,6 +6,6 @@ $(document).ready(function() {
   });
 
   $(".icons").click(function() {
-    $(this).addClass("animated fadeOutDown");
+    $(this).addClass("animated flip");
   });
 });
