@@ -20,7 +20,7 @@
 }
 
 body {
-  background: linear-gradient(50deg, #000000, #890000, #0057ea);
+  background: linear-gradient(50deg, #aca90a, #890000, #004ed0);
   background-size: 600% 600%;
 
   -webkit-animation: AnimationName 25s ease infinite;
