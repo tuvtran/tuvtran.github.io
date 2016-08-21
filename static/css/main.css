@@ -20,13 +20,14 @@
 }
 
 body {
-  background: linear-gradient(47deg, #13bb90, #d50404, #672ff1, #368700, #3700bf, #bd0000);
+/*  background: linear-gradient(47deg, #13bb90, #d50404, #672ff1, #368700, #3700bf, #bd0000); */
+  background-color: black;
   background-size: 1200% 1200%;
 
-  -webkit-animation: AnimationName 35s ease infinite;
+  /*-webkit-animation: AnimationName 35s ease infinite;
   -moz-animation: AnimationName 35s ease infinite;
   -o-animation: AnimationName 35s ease infinite;
-  animation: AnimationName 35s ease infinite;
+  animation: AnimationName 35s ease infinite;*/
 }
 
 div {
@@ -34,14 +35,14 @@ div {
 }
 
 #main-header {
-  margin-top: 60px;
-  margin-bottom: 35px;
+  margin-top: 15%;
+  margin-bottom: 25px;
 }
 
 #name {
   padding-bottom: 0px;
   padding-top: 0px;
-  font-size: 4.55em;
+  font-size: 5.5em;
   font-family: Inconsolata;
   color: white;
   font-weight: bold;
@@ -62,14 +63,13 @@ div {
   font-size: 1.25em;
   text-shadow: 1.25px 1.25px 1.25px #000000;
   max-width: 800px;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
+  margin-bottom: auto;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  padding-top: 10px;
   border: 10px;
   color: white;
 }
@@ -82,13 +82,20 @@ div {
   color: #8ad00f;
 }
 
-#resume {
-  font-size: 1.25em;
+#bio {
   text-align: center;
+  display: none;
+}
+
+#resume {
+  text-align: center;
+  font-family: Anonymous Pro;
+  font-size: 1.5em;
+  text-shadow: 1.25px 1.25px 1.25px #000000;
 }
 
 #social-buttons {
-  width: 75%;
+  width: 84%;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
