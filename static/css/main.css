@@ -1,32 +1,6 @@
-@-webkit-keyframes AnimationName {
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
-}
-@keyframes AnimationName { 
-    0%{background-position:97% 0%}
-    50%{background-position:4% 100%}
-    100%{background-position:97% 0%}
-}
-
 body {
-  background: linear-gradient(47deg, #13bb90, #d50404, #672ff1, #368700, #3700bf, #bd0000);
+  background: #00384C;
   background-size: 1200% 1200%;
-
-  -webkit-animation: AnimationName 35s ease infinite;
-  -moz-animation: AnimationName 35s ease infinite;
-  -o-animation: AnimationName 35s ease infinite;
-  animation: AnimationName 35s ease infinite;
 }
 
 div {
