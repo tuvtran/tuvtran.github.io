@@ -115,6 +115,6 @@ var particles = {
   }
 }
 
-particlesJS.load('particles-js', particles, function() {
+particlesJS.load('particles-js', 'bower_components/particles.js/demo/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
