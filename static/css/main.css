@@ -87,3 +87,10 @@ div {
 .icons:hover {
   color: pink;
 }
+
+footer {
+  font-family: monospace;
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
