@@ -1,5 +1,5 @@
 body {
-  background: #00384C;
+  background: #003541;
   background-size: 1200% 1200%;
 }
 
@@ -19,14 +19,14 @@ div {
   font-family: Inconsolata;
   color: white;
   font-weight: bold;
-  text-shadow: 1.5px 1.5px 1.5px #000000;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 #sub {
   font-family: Roboto Mono;
   color: white;
   font-size: 1.5em;
-  text-shadow: 1.5px 1.5px 1.5px #000000;
+  text-shadow: 1px 1px 1px #000000;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -34,7 +34,7 @@ div {
 #main-content {
   font-family: Anonymous Pro;
   font-size: 1.25em;
-  text-shadow: 1.25px 1.25px 1.25px #000000;
+  text-shadow: 1px 1px 1px #000000;
   max-width: 800px;
   margin-top: 30px;
   margin-left: auto;
