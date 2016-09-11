@@ -1,0 +1,20 @@
+{
+  "name": "tuvtran",
+  "homepage": "http://www.tuvtran.com",
+  "authors": [
+    "Tu Tran <tu.tran@temple.edu>"
+  ],
+  "description": "my personal website hosted on Github Pages",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
