@@ -7,9 +7,17 @@ div {
   display: block;
 }
 
+#particles-js {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
 #main-header {
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: 35px;
+  padding-top: 60px;
 }
 
 #name {
