@@ -1,10 +1,21 @@
 body {
-  background: #ffffff;
+  background: #171717;
   background-size: 1200% 1200%;
 }
 
 div {
   display: block;
+}
+
+code {
+  background-color: #c7c7c7;
+  color: #171717;
+}
+
+a {
+  color: #fe4386;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 #particles-js {
@@ -26,7 +37,7 @@ div {
   padding-top: 0px;
   font-size: 4em;
   font-family: Inconsolata;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -43,7 +54,7 @@ div {
   padding-bottom: 10px;
   padding-top: 10px;
   border: 10px;
-  color: black;
+  color: white;
 }
 
 .section-names {
