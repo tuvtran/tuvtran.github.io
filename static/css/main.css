@@ -1,5 +1,5 @@
 body {
-  background: #003541;
+  background: #ffffff;
   background-size: 1200% 1200%;
 }
 
@@ -15,35 +15,36 @@ div {
 }
 
 #main-header {
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 35px;
+  padding-left: 20px;
   padding-top: 60px;
+  text-align: center;
 }
 
 #name {
   padding-bottom: 0px;
   padding-top: 0px;
-  font-size: 4.55em;
+  font-size: 4em;
   font-family: Inconsolata;
-  color: white;
+  color: black;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #000000;
 }
 
 #sub {
-  font-family: Roboto Mono;
-  color: white;
+  font-family: Inconsolata;
+  color: black;
   font-size: 1.5em;
-  text-shadow: 1px 1px 1px #000000;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
 
 #main-content {
-  font-family: Anonymous Pro;
+  font-family: Inconsolata;
   font-size: 1.25em;
-  text-shadow: 1px 1px 1px #000000;
-  max-width: 800px;
+  width: 80%;
+  max-width: 100%;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -53,44 +54,16 @@ div {
   padding-bottom: 10px;
   padding-top: 10px;
   border: 10px;
-  color: white;
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.links {
-  color: #4ee9ff;
-}
-
-.links:hover {
-  color: #8ad00f;
+.section-names {
+  font-weight: bold;
 }
 
 #resume {
   font-size: 1.25em;
-  text-align: center;
-}
-
-#social-buttons {
-  width: 75%;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.icons {
-  margin-right: 2%;
-  margin-left: 2%;
-  color: white;
-}
-
-.icons:hover {
-  color: pink;
-}
-
-footer {
-  font-family: monospace;
-  font-size: 1em;
-  color: white;
   text-align: center;
 }
