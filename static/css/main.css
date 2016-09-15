@@ -16,10 +16,8 @@ div {
 
 #main-header {
   width: 100%;
-  margin-top: 0px;
+  margin-top: 35px;
   margin-bottom: 35px;
-  padding-left: 20px;
-  padding-top: 60px;
   text-align: center;
 }
 
@@ -43,8 +41,7 @@ div {
 #main-content {
   font-family: Inconsolata;
   font-size: 1.25em;
-  width: 80%;
-  max-width: 100%;
+  max-width: 650px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -55,8 +52,6 @@ div {
   padding-top: 10px;
   border: 10px;
   color: black;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .section-names {
