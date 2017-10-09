@@ -1,5 +1,5 @@
 body {
-  background: #171717;
+  background: #272822;
   background-size: 1200% 1200%;
 }
 
@@ -8,14 +8,18 @@ div {
 }
 
 code {
-  background-color: #c7c7c7;
-  color: #171717;
+  background-color: #272822;
+  color: #F92672;
+}
+
+.command {
+  color: #A6E22E;
 }
 
 a {
-  color: #fe4386;
-  font-weight: bold;
-  text-decoration: underline;
+  color: #66D9EF;
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
 }
 
 #particles-js {
