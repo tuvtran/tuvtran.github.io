@@ -74,6 +74,10 @@ a {
   font-weight: bold;
 }
 
+.keyword {
+  color: #fd971f;
+}
+
 #main-content {
   font-family: Inconsolata;
   font-size: 1.25em;
