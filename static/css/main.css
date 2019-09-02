@@ -94,6 +94,10 @@ a {
   color: white;
 }
 
+#bio {
+  text-align: justify;
+}
+
 .section-names {
   font-weight: bold;
 }
