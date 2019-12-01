@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+<title>Blog</title>
+<link>http://localhost:8000/</link>
+<description>Grow with Technology</description>
+
+<item>
+<title>Persona 5: An Afterthought</title>
+<link>http://localhost:8000/blog/persona5-review/</link>
+<description>
+<![CDATA[
+<p>
+Disclaimer : This is not a critical review and by no means a comprehensive write-up. There are people who do a much better job of&nbsp;<a href="http://localhost:8000/blog/persona5-review/">...</a>
+</p>
+<p><a href="http://localhost:8000/blog/persona5-review/">Read More</a></p>
+]]>
+</description>
+<pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+</item>
+
+
+</channel>
+</rss>
